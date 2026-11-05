@@ -1,1 +1,3 @@
-# ci-cd-python-actions-v2
+# Calculadora com CI
+
+![CI](https://github.com/LucasHenriqueLeo/ci-cd-python-actions/actions/workflows/python-ci.yml/badge.svg)

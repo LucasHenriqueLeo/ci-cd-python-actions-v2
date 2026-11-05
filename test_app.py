@@ -1,4 +1,4 @@
-from app import adicionar, subtrair, multiplicar
+from app import adicionar, subtrair, multiplicar, dividir
 
 
 def test_adicionar():
@@ -19,3 +19,10 @@ def test_multiplicar():
     assert multiplicar(4, 5) == 20
     assert multiplicar(3, 0) == 0
     assert multiplicar(-2, 3) == -6
+
+
+def test_dividir():
+    """Verifica se a função multiplicar funciona corretamente."""
+    assert dividir(10, 5) == 2
+    assert dividir(3, 1) == 3
+    assert dividir(6, 2) == 3
