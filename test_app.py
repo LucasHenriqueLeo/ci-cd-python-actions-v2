@@ -20,6 +20,7 @@ def test_multiplicar():
     assert multiplicar(3, 0) == 0
     assert multiplicar(-2, 3) == -6
 
+
 def test_dividir():
     """Verifica se a função multiplicar funciona corretamente."""
     assert dividir(10, 5) == 2
